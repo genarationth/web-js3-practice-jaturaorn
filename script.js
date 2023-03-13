@@ -11,3 +11,8 @@ console.log(multiply(2,300));
 
 const divide = (a,b) => a/b;
 console.log(divide(400,2));
+
+const info = (Name = 'John',Location = 'Brazil',Hobby = 'Swimmimg') =>{
+    console.log('Hi, my name is ' + Name + ' I live in ' + Location +  " and enjoy " + Hobby);
+}
+info();
